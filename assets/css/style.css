@@ -11,6 +11,8 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -18,7 +20,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
+    display: flex;
 }
 
 header a {
@@ -27,7 +29,6 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
@@ -62,4 +63,33 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+section {
+    padding: 60px;
+    
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/*Hero Style End */
+
+.hero-form {
+    color: #024e76;
+    background-color: #fce138;
+    width: 500px;
+    padding: 20px;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    bottom: 120px;
+    right: 140px;
+
 }
