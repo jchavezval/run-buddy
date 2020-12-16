@@ -154,3 +154,27 @@
   .secondary-border {
       border-color: #39a6b2;
   }
+
+  .steps div {
+      margin-bottom: 80px;
+  }
+
+  .step-img {
+      width: 15px;
+      margin: 10px;
+  }
+
+  .steps h3 {
+      color: #024e76;
+      font-size: 46px;
+      margin-top: 10px;
+  }
+
+  .steps p {
+      color: #39a6b2;
+      font-size: 23px;
+  }
+
+  .steps span {
+      font-size: 38px;
+  }
