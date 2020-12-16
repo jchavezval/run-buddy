@@ -91,5 +91,13 @@ section {
     right: 0px;
     bottom: 120px;
     right: 140px;
+    margin-left: 20px;
+}
 
+h3 {
+    margin: 0px;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
 }
