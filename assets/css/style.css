@@ -227,7 +227,7 @@
   }
 
   /* style Reach Out */
-  
+
   .contact {
     text-align: center;
     width: 900px;
@@ -267,4 +267,8 @@
 
   .contact-info a {
       color: #fce138;
+  }
+
+  .service-grid-container {
+      display: grid;
   }
