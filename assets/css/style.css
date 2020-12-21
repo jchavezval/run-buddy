@@ -13,6 +13,7 @@ header {
     background-color: #39a6b2;
     justify-content: space-between;
     flex-wrap: wrap;
+    display: flex;
 }
 
 header h1 {
@@ -39,7 +40,7 @@ header nav ul li {
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 footer {
